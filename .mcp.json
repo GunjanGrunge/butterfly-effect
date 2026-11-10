@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "butterfly": {
+      "command": "python",
+      "args": [
+        "-c",
+        "import sys, os; n = lambda p: os.path.normcase(os.path.abspath(p)); cwd = n(os.getcwd()); keep = [n(x) for x in os.environ.get('PYTHONPATH', '').split(os.pathsep) if x]; sys.path[:] = [p for p in sys.path if p and (n(p) != cwd or n(p) in keep)]; import runpy; runpy.run_module('butterfly_mcp.server', run_name='__main__', alter_sys=True)"
+      ],
+      "env": {
+        "PYTHONPATH": "${CLAUDE_PLUGIN_ROOT}/mcp"
+      }
+    }
+  }
+}

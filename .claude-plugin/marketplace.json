@@ -1,0 +1,14 @@
+{
+  "name": "butterfly-effect-plugins",
+  "description": "Marketplace for the butterfly-effect plugin.",
+  "owner": {
+    "name": "GunjanGrunge"
+  },
+  "plugins": [
+    {
+      "name": "butterfly-effect",
+      "source": "./",
+      "description": "Simulate the outcomes of a decision across branching timelines and get a confidence-based recommendation."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "butterfly-effect",
+  "version": "0.1.0",
+  "description": "Simulate the outcomes of a decision across branching timelines and get a confidence-based recommendation.",
+  "author": {
+    "name": "GunjanGrunge"
+  },
+  "homepage": "https://github.com/GunjanGrunge/butterfly-effect",
+  "repository": "https://github.com/GunjanGrunge/butterfly-effect",
+  "license": "Apache-2.0",
+  "keywords": ["decision", "simulation", "what-if", "scenario", "testing", "monte-carlo", "planning"]
+}
